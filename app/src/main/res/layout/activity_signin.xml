@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yevgeniya.unimanager.SigninActivity">
+    <EditText
+        android:layout_marginTop="100dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone number"
+        android:layout_gravity="center_horizontal"
+        android:inputType="phone"
+        android:id="@+id/phoneET"/>
+    <Button
+        android:id="@+id/sendBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Send"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your code"
+        android:layout_gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        android:id="@+id/codeET"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Confirm"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/confirmBTN"
+            android:visibility="invisible"/>
+        <Button
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Resend me a code"
+            android:layout_toRightOf="@id/confirmBTN"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:id="@+id/resendBTN"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</LinearLayout>

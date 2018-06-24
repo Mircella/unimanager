@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "655405895770",
+    "firebase_url": "https://universitymanager2017.firebaseio.com",
+    "project_id": "universitymanager2017",
+    "storage_bucket": "universitymanager2017.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655405895770:android:c2c90cb96ccc362f",
+        "android_client_info": {
+          "package_name": "com.example.yevgeniya.universitymanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655405895770-rvemkjvi3h584kgin20nbascghq78h7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yevgeniya.universitymanager",
+            "certificate_hash": "cbb766d2f19ef5e7129f6a8fe8a7c2728c680b1e"
+          }
+        },
+        {
+          "client_id": "655405895770-ipr8drgqia4dh6hp9ag5oo7slek0hoie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCozS9xuV1zLjs59GNCicZSnV8xYQvbzW8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655405895770-ipr8drgqia4dh6hp9ag5oo7slek0hoie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

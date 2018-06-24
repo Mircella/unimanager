@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yevgeniya.unimanager.MenuActivity">
+    <TextView
+        android:text="Wellcome to\nWyzsza Szkola Technologii Informatycznych"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"/>
+    <TextView
+        android:text="Please select what office do you need to get in:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/configTV"
+            android:text="configuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:visibility="gone"
+            android:id="@+id/showBTN"
+            android:text="Show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+   </LinearLayout>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/firebaseTV"
+        android:text="Firebase data1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/firebaseTV2"
+        android:text="Firebase data2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ExpandableListView
+        android:id="@+id/officeELV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice"
+        android:scrollbarAlwaysDrawVerticalTrack="true"></ExpandableListView>
+</LinearLayout>

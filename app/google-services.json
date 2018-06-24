@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "239610016985",
+    "firebase_url": "https://uni-manager.firebaseio.com",
+    "project_id": "uni-manager",
+    "storage_bucket": "uni-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239610016985:android:2c4c2b7cf55bf1e6",
+        "android_client_info": {
+          "package_name": "com.example.yevgeniya.unimanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239610016985-d6mrqj2lei54lqlmajg0jbors15agjup.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yevgeniya.unimanager",
+            "certificate_hash": "cbb766d2f19ef5e7129f6a8fe8a7c2728c680b1e"
+          }
+        },
+        {
+          "client_id": "239610016985-aarhbgjij4oum3h8cjv9l4m60lk79413.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHKheeLJKBXDcOQFRctw3Bqv86jAMS9rg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239610016985-aarhbgjij4oum3h8cjv9l4m60lk79413.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
